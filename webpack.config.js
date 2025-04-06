@@ -1,12 +1,14 @@
 "use strict";
 
+/* global require, module, process, __dirname */
+
 const path = require("path");
 const autoprefixer = require("autoprefixer");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: process.env.NODE_ENV || "development",
-  entry: "./src/js/main.js",
+  entry: "./src/js/index.js",
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
