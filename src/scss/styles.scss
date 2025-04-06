@@ -1,0 +1,6 @@
+@use "bootstrap/scss/bootstrap";
+
+//Не работает эта хрень, потом разобраться почему цвет не меняется "В примере ссылки"
+.text-muted {
+  color: #6c757d !important;
+}
